@@ -8,8 +8,8 @@
     - Praktyka - grupy oddzielnie, identyczny materiał, identyczne zadania (rozdzielimy się)
   
 # Opis 
-Strona warsztatów. Stwrórz własna alpakę z dowolnymi szczegółami!
-Autorzy: Jan żółty, Janusz Pawlacz
+Strona warsztatów. Stwórz własna alpakę z dowolnymi szczegółami!
+
 # Zawartość strony
 HTML
 JS
