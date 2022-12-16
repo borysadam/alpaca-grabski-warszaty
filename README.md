@@ -90,7 +90,7 @@ To jest link do skryptu, należy ten link wkleić w odpowiedni tag który może 
 ```
 "https://use.fontawesome.com/releases/v6.2.1/css/all.css"
 ```
-## 6. Osadź w stronie skrypt zawierający informacje z puntu 4
+## 6. Osadź w stronie skrypt zawierający czcionke
 To jest link do skryptu, należy ten link wkleić w odpowiedni tag który może trzeba stworzyć.
 ```
 "https://fonts.googleapis.com/css?family=Inconsolata"
