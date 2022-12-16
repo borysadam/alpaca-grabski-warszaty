@@ -1,7 +1,4 @@
 # alpaca@grabski
-
-    DELETEME: w miejsce ❓ wstaw prognozowany czas
-
  - Data: 16.12.2022
  - Godzina: 8:55
  - Czas trwania: 3h
@@ -14,14 +11,14 @@
 Strona warsztatów. Stwrórz własna alpakę z dowolnymi szczegółami!
 Autorzy: Jan żółty, Janusz Pawlacz
 # Zawartość strony
-
-### HTML
-
-### JS
+HTML
+JS
+CSS
 
 # Zadania praktyczne
 
 ## 1. Dodaj kontrolkę do zmiany alpaki
+```
 <b>HTML</b>
 <label for="controlAlpaca">Choose your alpaca</label>
 <div id="controlAlpaca" class="panel">
@@ -41,8 +38,10 @@ async function drawAlpaca(i, isSnout) {
 	const src = `<... template string>`;
 	await drawImage(src, 50, 128, 1);
 }
+```
 
 ## 2. Dodaj kontrolkę do zmiany czapki/okulary/rzecz w pyszczku
+```
 <b>HTML</b>
 <label for="controlHat">Wear your favourite hat</label>
 <div id="controlHat" class="panel">
@@ -69,28 +68,36 @@ async function draw<...>Item(i) {
 		await drawImage(src, x, y, scale);
 	}
 }
+```
 
 ## 3. Dodaj element canvas
+```
 <div class="designer container">
     <canvas id="canvas" width="384" height="512"></canvas>
 </div>
+```
 
+```
 ## 4. Dodaj współrzędne i skalę czapki/okularów/rzeczy w pyszczku w pliku item-properties.js
+```
 const <...> ItemProperties = [
 	{ name: 'none' },
 	{ name: '<...>', x: 0, y: 0, scale: 1 },
 	{ name: '<...>', x: 0, y: 0, scale: 1 },
 	{ name: '<...>', x: 0, y: 0, scale: 1 },
 ]
-
+```
 
 ## 5. Osadź w stronie skrypt główny
 Dodaj do storny główny skrypt JS. Mozesz to zrobić w sekcji HEAD strony lub przed końcowym znacznikiem BODY.
+```
 <script src="index.js"></script>
+```
 
 ## 6. Osadź w stronie skrypt zawierający informacje z puntu 4
+```
 <script src="item-properties.js"></script> <!-- Script at the end of page body speeds up loading -->
-
+```
 
 
 
