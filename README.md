@@ -27,6 +27,7 @@ CSS
         <i class="fa-solid <...> fa-xl"></i>
     </button>
 </div>
+```
 <b>JS</b>
 ```
 /**
