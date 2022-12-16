@@ -77,7 +77,6 @@ async function draw<...>Item(i) {
 </div>
 ```
 
-```
 ## 4. Dodaj współrzędne i skalę czapki/okularów/rzeczy w pyszczku w pliku item-properties.js
 ```
 const <...> ItemProperties = [
