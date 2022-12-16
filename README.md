@@ -76,7 +76,6 @@ async function draw<...>Item(i) {
     <canvas id="canvas" width="384" height="512"></canvas>
 </div>
 ```
-
 ## 4. Dodaj współrzędne i skalę czapki/okularów/rzeczy w pyszczku w pliku item-properties.js
 ```
 const <...> ItemProperties = [
@@ -86,13 +85,11 @@ const <...> ItemProperties = [
 	{ name: '<...>', x: 0, y: 0, scale: 1 },
 ]
 ```
-
 ## 5. Osadź w stronie skrypt główny
 Dodaj do storny główny skrypt JS. Mozesz to zrobić w sekcji HEAD strony lub przed końcowym znacznikiem BODY.
 ```
 <script src="index.js"></script>
 ```
-
 ## 6. Osadź w stronie skrypt zawierający informacje z puntu 4
 ```
 <script src="item-properties.js"></script> <!-- Script at the end of page body speeds up loading -->
