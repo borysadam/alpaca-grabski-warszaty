@@ -18,8 +18,8 @@ CSS
 # Zadania praktyczne
 
 ## 1. Dodaj kontrolkę do zmiany alpaki
-```
 <b>HTML</b>
+```
 <label for="controlAlpaca">Choose your alpaca</label>
 <div id="controlAlpaca" class="panel">
     <span id="spanAlpaca">alpaca0</span>
@@ -28,6 +28,7 @@ CSS
     </button>
 </div>
 <b>JS</b>
+```
 /**
  * @description This function draws an alpaca or only it's snout.
  * It's asynchronous, so remember to call it using `await`, so images are drawn in correct order.
