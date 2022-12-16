@@ -85,14 +85,15 @@ const <...> ItemProperties = [
 	{ name: '<...>', x: 0, y: 0, scale: 1 },
 ]
 ```
-## 5. Osadź w stronie skrypt główny
-Dodaj do storny główny skrypt JS. Mozesz to zrobić w sekcji HEAD strony lub przed końcowym znacznikiem BODY.
+## 5. Osadź w stronie ikonki od font awesome
+To jest link do skryptu, należy ten link wkleić w odpowiedni tag który może trzeba stworzyć.
 ```
-<script src="index.js"></script>
+"https://use.fontawesome.com/releases/v6.2.1/css/all.css"
 ```
 ## 6. Osadź w stronie skrypt zawierający informacje z puntu 4
+To jest link do skryptu, należy ten link wkleić w odpowiedni tag który może trzeba stworzyć.
 ```
-<script src="item-properties.js"></script> <!-- Script at the end of page body speeds up loading -->
+"https://fonts.googleapis.com/css?family=Inconsolata"
 ```
 
 
